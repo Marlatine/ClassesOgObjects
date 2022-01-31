@@ -1,4 +1,4 @@
-class Animal {
+class Animal { 
   constructor(species, name, country, color, imgUrl) {
     this.species = species;
     this.name = name;
@@ -8,7 +8,7 @@ class Animal {
   }
 }
 
-const objectOne = new Animal(
+const objectOne = new Animal( //
   "Tiger",
   "Kiara",
   "Africa",
@@ -22,4 +22,10 @@ const objectTwo = new Animal(
   "Hvit",
   "https://cdn.pixabay.com/photo/2017/02/18/13/55/swan-2077219_960_720.jpg"
 );
-console.log(animalOne);
+console.log(
+  objectOne.species,
+  objectOne.name,
+  objectOne.country,
+  objectOne.color,
+  objectOne.imgUrl
+);
