@@ -12,12 +12,14 @@ class Animal {
 
 function feedAnimal() {
   document.getElementById("btn");
-  alert(`${objectOne.name} is now eating!`);
+  let userAnswer = prompt(`Hva vil du mate dyret med?`);
+  alert(`${objectOne.name} is now eating a portion of ${userAnswer}`);
 }
 
 function feedAnimal2() {
   document.getElementById("btn-2");
-  alert(`${objectTwo.name} is now eating!`);
+  let userAnswer = prompt(`Hva vil du mate dyret med?`);
+  alert(`${objectTwo.name} is now eating a portion of ${userAnswer}!`);
 }
 
 const objectOne = new Animal( // Dette er det første objektet i classen.
