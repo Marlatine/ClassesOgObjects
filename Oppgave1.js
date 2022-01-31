@@ -12,7 +12,12 @@ class Animal {
 
 function feedAnimal() {
   document.getElementById("btn");
-  alert("You fed the animal!");
+  alert(`${objectOne.name} is now eating!`);
+}
+
+function feedAnimal2() {
+  document.getElementById("btn-2");
+  alert(`${objectTwo.name} is now eating!`);
 }
 
 const objectOne = new Animal( // Dette er det første objektet i classen.
