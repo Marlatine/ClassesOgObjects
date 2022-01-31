@@ -27,7 +27,7 @@ const objectOne = new Animal( // Dette er det første objektet i classen.
   "Kiara",
   "Africa",
   "Orange",
-  "<img src = https://cdn.pixabay.com/photo/2016/05/02/12/58/tiger-1367197_960_720.jpg>"
+  "<img src = https://cdn.pixabay.com/photo/2018/05/23/18/54/tiger-3424791_960_720.jpg>"
 );
 const objectTwo = new Animal( // Dette er det andre objektet i classen.
   "Svane",
